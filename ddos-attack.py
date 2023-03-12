@@ -1,3 +1,4 @@
+import sys
 import os
 import socket
 import random
@@ -25,5 +26,5 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nArresting the attack...")
         sock.close()
-        exit()
+        sys.exit()
 
